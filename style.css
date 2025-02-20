@@ -67,7 +67,10 @@ a {
     color: white;
     text-shadow: -0.015em 0 transparent, 0 0.015em transparent, 0.015em 0 transparent, 0 -0.015em transparent;
 }
-
+li.text {
+    padding-left: 0;
+    margin-left: 2em;
+}
 h1,
 h2 {
     font-family: ff2;
@@ -76,12 +79,12 @@ h2 {
     font-weight: normal;
     padding: .75em;
     background-color: #84091e;
-    margin-bottom: 1.5em;
+    margin-bottom: 0;
 }
 
 .subtitle {
     margin-top: 0;
-    padding-right: 2rem;
+    padding-right: 4rem;
     text-align: right;
     float: right;
     border-radius: 15px 0 0 15px;
@@ -89,14 +92,14 @@ h2 {
 
 .left-header {
     margin-top: 2.5rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
     float: left;
     border-radius: 0 15px 15px 0;
 }
 
 .right-header {
     margin-top: 2.5rem;
-    padding-right: 2rem;
+    padding-right: 4rem;
     text-align: right;
     float: right;
     border-radius: 15px 0 0 15px;
